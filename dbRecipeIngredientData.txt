@@ -1,0 +1,709 @@
+db.recipeIngredients.insertMany([
+  // Ingredients for Spaghetti Bolognese
+  { recipeId: "1", ingredientName: "Ground Beef", quantity: "500", unit: "g" },
+  { recipeId: "1", ingredientName: "Tomatoes", quantity: "400", unit: "g" },
+  { recipeId: "1", ingredientName: "Onions", quantity: "2", unit: "" },
+  { recipeId: "1", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "1", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Caesar Salad
+  { recipeId: "2", ingredientName: "Romaine Lettuce", quantity: "1", unit: "head" },
+  { recipeId: "2", ingredientName: "Parmesan Cheese", quantity: "50", unit: "g" },
+  { recipeId: "2", ingredientName: "Croutons", quantity: "1", unit: "cup" },
+  { recipeId: "2", ingredientName: "Chicken Breast", quantity: "200", unit: "g" },
+  { recipeId: "2", ingredientName: "Caesar Dressing", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Vegetable Stir-Fry
+  { recipeId: "3", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "3", ingredientName: "Broccoli", quantity: "1", unit: "cup" },
+  { recipeId: "3", ingredientName: "Carrots", quantity: "2", unit: "" },
+  { recipeId: "3", ingredientName: "Soy Sauce", quantity: "3", unit: "tbsp" },
+  { recipeId: "3", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Chicken Tikka Masala
+  { recipeId: "4", ingredientName: "Chicken Breast", quantity: "500", unit: "g" },
+  { recipeId: "4", ingredientName: "Yogurt", quantity: "1", unit: "cup" },
+  { recipeId: "4", ingredientName: "Tomatoes", quantity: "400", unit: "g" },
+  { recipeId: "4", ingredientName: "Ginger", quantity: "1", unit: "tbsp" },
+  { recipeId: "4", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+
+  // Ingredients for Tacos
+  { recipeId: "5", ingredientName: "Ground Beef", quantity: "500", unit: "g" },
+  { recipeId: "5", ingredientName: "Taco Shells", quantity: "10", unit: "" },
+  { recipeId: "5", ingredientName: "Lettuce", quantity: "1", unit: "cup" },
+  { recipeId: "5", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "5", ingredientName: "Cheddar Cheese", quantity: "1", unit: "cup" },
+
+  // Ingredients for Pad Thai
+  { recipeId: "6", ingredientName: "Rice Noodles", quantity: "200", unit: "g" },
+  { recipeId: "6", ingredientName: "Shrimp", quantity: "200", unit: "g" },
+  { recipeId: "6", ingredientName: "Eggs", quantity: "2", unit: "" },
+  { recipeId: "6", ingredientName: "Peanuts", quantity: "1/4", unit: "cup" },
+  { recipeId: "6", ingredientName: "Soy Sauce", quantity: "3", unit: "tbsp" },
+
+  // Ingredients for Ratatouille
+  { recipeId: "7", ingredientName: "Eggplant", quantity: "1", unit: "" },
+  { recipeId: "7", ingredientName: "Zucchini", quantity: "2", unit: "" },
+  { recipeId: "7", ingredientName: "Tomatoes", quantity: "4", unit: "" },
+  { recipeId: "7", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "7", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Falafel
+  { recipeId: "8", ingredientName: "Chickpeas", quantity: "1", unit: "cup" },
+  { recipeId: "8", ingredientName: "Garlic", quantity: "2", unit: "cloves" },
+  { recipeId: "8", ingredientName: "Cumin", quantity: "1", unit: "tsp" },
+  { recipeId: "8", ingredientName: "Coriander", quantity: "1", unit: "tsp" },
+  { recipeId: "8", ingredientName: "Baking Powder", quantity: "1", unit: "tsp" },
+
+  // Ingredients for Moussaka
+  { recipeId: "9", ingredientName: "Eggplant", quantity: "2", unit: "" },
+  { recipeId: "9", ingredientName: "Ground Beef", quantity: "500", unit: "g" },
+  { recipeId: "9", ingredientName: "Tomatoes", quantity: "400", unit: "g" },
+  { recipeId: "9", ingredientName: "Bechamel Sauce", quantity: "1", unit: "cup" },
+  { recipeId: "9", ingredientName: "Onions", quantity: "2", unit: "" },
+
+  // Ingredients for Sushi
+  { recipeId: "10", ingredientName: "Sushi Rice", quantity: "1", unit: "cup" },
+  { recipeId: "10", ingredientName: "Nori Sheets", quantity: "10", unit: "" },
+  { recipeId: "10", ingredientName: "Fresh Fish", quantity: "200", unit: "g" },
+  { recipeId: "10", ingredientName: "Soy Sauce", quantity: "1/4", unit: "cup" },
+  { recipeId: "10", ingredientName: "Rice Vinegar", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Chili Con Carne
+  { recipeId: "11", ingredientName: "Ground Beef", quantity: "500", unit: "g" },
+  { recipeId: "11", ingredientName: "Kidney Beans", quantity: "1", unit: "cup" },
+  { recipeId: "11", ingredientName: "Tomatoes", quantity: "400", unit: "g" },
+  { recipeId: "11", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "11", ingredientName: "Chili Powder", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Greek Salad
+  { recipeId: "12", ingredientName: "Cucumbers", quantity: "1", unit: "" },
+  { recipeId: "12", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "12", ingredientName: "Feta Cheese", quantity: "100", unit: "g" },
+  { recipeId: "12", ingredientName: "Olives", quantity: "1/2", unit: "cup" },
+  { recipeId: "12", ingredientName: "Red Onions", quantity: "1", unit: "" },
+
+  // Ingredients for Tom Yum Soup
+  { recipeId: "13", ingredientName: "Shrimp", quantity: "200", unit: "g" },
+  { recipeId: "13", ingredientName: "Lemongrass", quantity: "2", unit: "stalks" },
+  { recipeId: "13", ingredientName: "Kaffir Lime Leaves", quantity: "5", unit: "" },
+  { recipeId: "13", ingredientName: "Chili Peppers", quantity: "3", unit: "" },
+  { recipeId: "13", ingredientName: "Fish Sauce", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Margarita Pizza
+  { recipeId: "14", ingredientName: "Pizza Dough", quantity: "1", unit: "kg" },
+  { recipeId: "14", ingredientName: "Tomato Sauce", quantity: "1/2", unit: "cup" },
+  { recipeId: "14", ingredientName: "Mozzarella Cheese", quantity: "200", unit: "g" },
+  { recipeId: "14", ingredientName: "Fresh Basil", quantity: "1", unit: "cup" },
+  { recipeId: "14", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Korean BBQ
+  { recipeId: "15", ingredientName: "Beef Short Ribs", quantity: "500", unit: "g" },
+  { recipeId: "15", ingredientName: "Soy Sauce", quantity: "1/4", unit: "cup" },
+  { recipeId: "15", ingredientName: "Brown Sugar", quantity: "2", unit: "tbsp" },
+  { recipeId: "15", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "15", ingredientName: "Sesame Oil", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Pancakes
+  { recipeId: "16", ingredientName: "Flour", quantity: "1", unit: "cup" },
+  { recipeId: "16", ingredientName: "Milk", quantity: "1", unit: "cup" },
+  { recipeId: "16", ingredientName: "Eggs", quantity: "2", unit: "" },
+  { recipeId: "16", ingredientName: "Sugar", quantity: "2", unit: "tbsp" },
+  { recipeId: "16", ingredientName: "Butter", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Beef Stroganoff
+  { recipeId: "17", ingredientName: "Beef Sirloin", quantity: "500", unit: "g" },
+  { recipeId: "17", ingredientName: "Mushrooms", quantity: "200", unit: "g" },
+  { recipeId: "17", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "17", ingredientName: "Sour Cream", quantity: "1", unit: "cup" },
+  { recipeId: "17", ingredientName: "Beef Broth", quantity: "1", unit: "cup" },
+
+  // Ingredients for Samosas
+  { recipeId: "18", ingredientName: "Potatoes", quantity: "3", unit: "" },
+  { recipeId: "18", ingredientName: "Green Peas", quantity: "1", unit: "cup" },
+  { recipeId: "18", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "18", ingredientName: "Cumin", quantity: "1", unit: "tsp" },
+  { recipeId: "18", ingredientName: "Turmeric", quantity: "1/2", unit: "tsp" },
+
+  // Ingredients for Bulgur Wheat Salad
+  { recipeId: "19", ingredientName: "Bulgur Wheat", quantity: "1", unit: "cup" },
+  { recipeId: "19", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "19", ingredientName: "Cucumbers", quantity: "1", unit: "" },
+  { recipeId: "19", ingredientName: "Parsley", quantity: "1/2", unit: "cup" },
+  { recipeId: "19", ingredientName: "Lemon Juice", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Chicken Alfredo
+  { recipeId: "20", ingredientName: "Chicken Breast", quantity: "300", unit: "g" },
+  { recipeId: "20", ingredientName: "Fettuccine", quantity: "200", unit: "g" },
+  { recipeId: "20", ingredientName: "Heavy Cream", quantity: "1", unit: "cup" },
+  { recipeId: "20", ingredientName: "Parmesan Cheese", quantity: "1/2", unit: "cup" },
+  { recipeId: "20", ingredientName: "Garlic", quantity: "2", unit: "cloves" }
+]);
+
+db.recipeIngredients.insertMany([
+  // Ingredients for Banh Mi
+  { recipeId: "21", ingredientName: "Baguette", quantity: "1", unit: "" },
+  { recipeId: "21", ingredientName: "Pork Shoulder", quantity: "300", unit: "g" },
+  { recipeId: "21", ingredientName: "Pickled Carrots", quantity: "1/2", unit: "cup" },
+  { recipeId: "21", ingredientName: "Cucumber", quantity: "1", unit: "" },
+  { recipeId: "21", ingredientName: "Coriander", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Falafel Wrap
+  { recipeId: "22", ingredientName: "Falafel Balls", quantity: "4", unit: "" },
+  { recipeId: "22", ingredientName: "Pita Bread", quantity: "1", unit: "" },
+  { recipeId: "22", ingredientName: "Hummus", quantity: "2", unit: "tbsp" },
+  { recipeId: "22", ingredientName: "Cucumber", quantity: "1", unit: "" },
+  { recipeId: "22", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+
+  // Ingredients for Goulash
+  { recipeId: "23", ingredientName: "Beef Chuck", quantity: "500", unit: "g" },
+  { recipeId: "23", ingredientName: "Onions", quantity: "2", unit: "" },
+  { recipeId: "23", ingredientName: "Paprika", quantity: "2", unit: "tbsp" },
+  { recipeId: "23", ingredientName: "Potatoes", quantity: "4", unit: "" },
+  { recipeId: "23", ingredientName: "Tomatoes", quantity: "3", unit: "" },
+
+  // Ingredients for Shakshuka
+  { recipeId: "24", ingredientName: "Eggs", quantity: "4", unit: "" },
+  { recipeId: "24", ingredientName: "Tomatoes", quantity: "400", unit: "g" },
+  { recipeId: "24", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "24", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "24", ingredientName: "Cumin", quantity: "1", unit: "tsp" },
+
+  // Ingredients for Empanadas
+  { recipeId: "25", ingredientName: "Empanada Dough", quantity: "12", unit: "pieces" },
+  { recipeId: "25", ingredientName: "Ground Beef", quantity: "300", unit: "g" },
+  { recipeId: "25", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "25", ingredientName: "Olives", quantity: "1/4", unit: "cup" },
+  { recipeId: "25", ingredientName: "Eggs", quantity: "1", unit: "" },
+
+  // Ingredients for Borscht
+  { recipeId: "26", ingredientName: "Beets", quantity: "3", unit: "" },
+  { recipeId: "26", ingredientName: "Cabbage", quantity: "1", unit: "cup" },
+  { recipeId: "26", ingredientName: "Onions", quantity: "2", unit: "" },
+  { recipeId: "26", ingredientName: "Carrots", quantity: "2", unit: "" },
+  { recipeId: "26", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+
+  // Ingredients for Risotto
+  { recipeId: "27", ingredientName: "Arborio Rice", quantity: "1", unit: "cup" },
+  { recipeId: "27", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "27", ingredientName: "Parmesan Cheese", quantity: "1/2", unit: "cup" },
+  { recipeId: "27", ingredientName: "White Wine", quantity: "1/2", unit: "cup" },
+  { recipeId: "27", ingredientName: "Onions", quantity: "1", unit: "" },
+
+  // Ingredients for Kebabs
+  { recipeId: "28", ingredientName: "Lamb Chops", quantity: "500", unit: "g" },
+  { recipeId: "28", ingredientName: "Yogurt", quantity: "1/2", unit: "cup" },
+  { recipeId: "28", ingredientName: "Garlic", quantity: "2", unit: "cloves" },
+  { recipeId: "28", ingredientName: "Cumin", quantity: "1", unit: "tsp" },
+  { recipeId: "28", ingredientName: "Coriander", quantity: "1", unit: "tsp" },
+
+  // Ingredients for Paella
+  { recipeId: "29", ingredientName: "Rice", quantity: "1", unit: "cup" },
+  { recipeId: "29", ingredientName: "Chicken", quantity: "300", unit: "g" },
+  { recipeId: "29", ingredientName: "Seafood Mix", quantity: "200", unit: "g" },
+  { recipeId: "29", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "29", ingredientName: "Saffron", quantity: "1", unit: "pinch" },
+
+  // Ingredients for Lentil Soup
+  { recipeId: "30", ingredientName: "Lentils", quantity: "1", unit: "cup" },
+  { recipeId: "30", ingredientName: "Carrots", quantity: "2", unit: "" },
+  { recipeId: "30", ingredientName: "Celery", quantity: "2", unit: "stalks" },
+  { recipeId: "30", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "30", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+
+  // Ingredients for Beef Tacos
+  { recipeId: "31", ingredientName: "Ground Beef", quantity: "300", unit: "g" },
+  { recipeId: "31", ingredientName: "Taco Shells", quantity: "8", unit: "" },
+  { recipeId: "31", ingredientName: "Cheddar Cheese", quantity: "1", unit: "cup" },
+  { recipeId: "31", ingredientName: "Lettuce", quantity: "1", unit: "cup" },
+  { recipeId: "31", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+
+  // Ingredients for Minestrone Soup
+  { recipeId: "32", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "32", ingredientName: "Pasta", quantity: "1", unit: "cup" },
+  { recipeId: "32", ingredientName: "Carrots", quantity: "2", unit: "" },
+  { recipeId: "32", ingredientName: "Celery", quantity: "2", unit: "stalks" },
+  { recipeId: "32", ingredientName: "Tomatoes", quantity: "3", unit: "" },
+
+  // Ingredients for Barbecue Ribs
+  { recipeId: "33", ingredientName: "Pork Ribs", quantity: "1", unit: "kg" },
+  { recipeId: "33", ingredientName: "Barbecue Sauce", quantity: "1", unit: "cup" },
+  { recipeId: "33", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "33", ingredientName: "Paprika", quantity: "1", unit: "tbsp" },
+  { recipeId: "33", ingredientName: "Brown Sugar", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Gazpacho
+  { recipeId: "34", ingredientName: "Tomatoes", quantity: "4", unit: "" },
+  { recipeId: "34", ingredientName: "Cucumber", quantity: "1", unit: "" },
+  { recipeId: "34", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "34", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "34", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Chicken Fajitas
+  { recipeId: "35", ingredientName: "Chicken Breast", quantity: "300", unit: "g" },
+  { recipeId: "35", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "35", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "35", ingredientName: "Fajita Seasoning", quantity: "1", unit: "tbsp" },
+  { recipeId: "35", ingredientName: "Flour Tortillas", quantity: "4", unit: "" },
+
+  // Ingredients for Egg Drop Soup
+  { recipeId: "36", ingredientName: "Chicken Broth", quantity: "1", unit: "liter" },
+  { recipeId: "36", ingredientName: "Eggs", quantity: "2", unit: "" },
+  { recipeId: "36", ingredientName: "Cornstarch", quantity: "1", unit: "tbsp" },
+  { recipeId: "36", ingredientName: "Ginger", quantity: "1", unit: "tbsp" },
+  { recipeId: "36", ingredientName: "Soy Sauce", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Tandoori Chicken
+  { recipeId: "37", ingredientName: "Chicken", quantity: "1", unit: "kg" },
+  { recipeId: "37", ingredientName: "Tandoori Masala", quantity: "3", unit: "tbsp" },
+  { recipeId: "37", ingredientName: "Yogurt", quantity: "1", unit: "cup" },
+  { recipeId: "37", ingredientName: "Lemon Juice", quantity: "2", unit: "tbsp" },
+  { recipeId: "37", ingredientName: "Garlic", quantity: "4", unit: "cloves" },
+
+  // Ingredients for Banh Xeo
+  { recipeId: "38", ingredientName: "Rice Flour", quantity: "1", unit: "cup" },
+  { recipeId: "38", ingredientName: "Coconut Milk", quantity: "1", unit: "cup" },
+  { recipeId: "38", ingredientName: "Pork Belly", quantity: "200", unit: "g" },
+  { recipeId: "38", ingredientName: "Bean Sprouts", quantity: "1", unit: "cup" },
+  { recipeId: "38", ingredientName: "Green Onions", quantity: "2", unit: "" },
+
+  // Ingredients for Vegetarian Chili
+  { recipeId: "39", ingredientName: "Kidney Beans", quantity: "1", unit: "can" },
+  { recipeId: "39", ingredientName: "Black Beans", quantity: "1", unit: "can" },
+  { recipeId: "39", ingredientName: "Tomatoes", quantity: "400", unit: "g" },
+  { recipeId: "39", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "39", ingredientName: "Onions", quantity: "1", unit: "" },
+
+  // Ingredients for Seafood Paella
+  { recipeId: "40", ingredientName: "Rice", quantity: "1", unit: "cup" },
+  { recipeId: "40", ingredientName: "Mixed Seafood", quantity: "300", unit: "g" },
+  { recipeId: "40", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "40", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "40", ingredientName: "Saffron", quantity: "1", unit: "pinch" }
+]);
+
+db.recipeIngredients.insertMany([
+  // Ingredients for Caponata
+  { recipeId: "41", ingredientName: "Eggplants", quantity: "2", unit: "" },
+  { recipeId: "41", ingredientName: "Tomatoes", quantity: "400", unit: "g" },
+  { recipeId: "41", ingredientName: "Celery", quantity: "2", unit: "stalks" },
+  { recipeId: "41", ingredientName: "Olives", quantity: "1/2", unit: "cup" },
+  { recipeId: "41", ingredientName: "Capers", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Peking Duck
+  { recipeId: "42", ingredientName: "Duck", quantity: "1", unit: "whole" },
+  { recipeId: "42", ingredientName: "Hoisin Sauce", quantity: "1/2", unit: "cup" },
+  { recipeId: "42", ingredientName: "Chinese Pancakes", quantity: "8", unit: "" },
+  { recipeId: "42", ingredientName: "Cucumber", quantity: "1", unit: "" },
+  { recipeId: "42", ingredientName: "Spring Onions", quantity: "4", unit: "" },
+
+  // Ingredients for Samosa Chaat
+  { recipeId: "43", ingredientName: "Samosas", quantity: "4", unit: "" },
+  { recipeId: "43", ingredientName: "Yogurt", quantity: "1/2", unit: "cup" },
+  { recipeId: "43", ingredientName: "Tamarind Chutney", quantity: "2", unit: "tbsp" },
+  { recipeId: "43", ingredientName: "Chickpeas", quantity: "1", unit: "cup" },
+  { recipeId: "43", ingredientName: "Onions", quantity: "1", unit: "" },
+
+  // Ingredients for Bulgur Pilaf
+  { recipeId: "44", ingredientName: "Bulgur Wheat", quantity: "1", unit: "cup" },
+  { recipeId: "44", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "44", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "44", ingredientName: "Cucumber", quantity: "1", unit: "" },
+  { recipeId: "44", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Chicken Shawarma
+  { recipeId: "45", ingredientName: "Chicken Thighs", quantity: "500", unit: "g" },
+  { recipeId: "45", ingredientName: "Yogurt", quantity: "1/2", unit: "cup" },
+  { recipeId: "45", ingredientName: "Shawarma Spice Mix", quantity: "2", unit: "tbsp" },
+  { recipeId: "45", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "45", ingredientName: "Lemon Juice", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Mushroom Risotto
+  { recipeId: "46", ingredientName: "Arborio Rice", quantity: "1", unit: "cup" },
+  { recipeId: "46", ingredientName: "Mushrooms", quantity: "200", unit: "g" },
+  { recipeId: "46", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "46", ingredientName: "White Wine", quantity: "1/2", unit: "cup" },
+  { recipeId: "46", ingredientName: "Parmesan Cheese", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Ceviche
+  { recipeId: "47", ingredientName: "White Fish", quantity: "300", unit: "g" },
+  { recipeId: "47", ingredientName: "Lime Juice", quantity: "1/2", unit: "cup" },
+  { recipeId: "47", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "47", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "47", ingredientName: "Coriander", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Cheeseburger
+  { recipeId: "48", ingredientName: "Ground Beef", quantity: "500", unit: "g" },
+  { recipeId: "48", ingredientName: "Cheddar Cheese", quantity: "4", unit: "slices" },
+  { recipeId: "48", ingredientName: "Burger Buns", quantity: "4", unit: "" },
+  { recipeId: "48", ingredientName: "Lettuce", quantity: "4", unit: "leaves" },
+  { recipeId: "48", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+
+  // Ingredients for Katsu Curry
+  { recipeId: "49", ingredientName: "Chicken Cutlets", quantity: "4", unit: "" },
+  { recipeId: "49", ingredientName: "Katsu Curry Sauce", quantity: "1", unit: "cup" },
+  { recipeId: "49", ingredientName: "Rice", quantity: "1", unit: "cup" },
+  { recipeId: "49", ingredientName: "Panko Breadcrumbs", quantity: "1", unit: "cup" },
+  { recipeId: "49", ingredientName: "Eggs", quantity: "2", unit: "" },
+
+  // Ingredients for Bangers and Mash
+  { recipeId: "50", ingredientName: "Sausages", quantity: "4", unit: "" },
+  { recipeId: "50", ingredientName: "Potatoes", quantity: "4", unit: "" },
+  { recipeId: "50", ingredientName: "Butter", quantity: "4", unit: "tbsp" },
+  { recipeId: "50", ingredientName: "Milk", quantity: "1/2", unit: "cup" },
+  { recipeId: "50", ingredientName: "Onions", quantity: "2", unit: "" },
+
+  // Ingredients for Sweet and Sour Pork
+  { recipeId: "51", ingredientName: "Pork", quantity: "300", unit: "g" },
+  { recipeId: "51", ingredientName: "Pineapple", quantity: "1/2", unit: "cup" },
+  { recipeId: "51", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "51", ingredientName: "Sweet and Sour Sauce", quantity: "1/2", unit: "cup" },
+  { recipeId: "51", ingredientName: "Onions", quantity: "1", unit: "" },
+
+  // Ingredients for Roasted Vegetable Salad
+  { recipeId: "52", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "52", ingredientName: "Zucchini", quantity: "1", unit: "" },
+  { recipeId: "52", ingredientName: "Cherry Tomatoes", quantity: "1", unit: "cup" },
+  { recipeId: "52", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+  { recipeId: "52", ingredientName: "Feta Cheese", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Pasta Carbonara
+  { recipeId: "53", ingredientName: "Spaghetti", quantity: "250", unit: "g" },
+  { recipeId: "53", ingredientName: "Eggs", quantity: "4", unit: "" },
+  { recipeId: "53", ingredientName: "Pancetta", quantity: "150", unit: "g" },
+  { recipeId: "53", ingredientName: "Parmesan Cheese", quantity: "1/2", unit: "cup" },
+  { recipeId: "53", ingredientName: "Black Pepper", quantity: "1", unit: "tsp" },
+
+  // Ingredients for Vegetable Curry
+  { recipeId: "54", ingredientName: "Mixed Vegetables", quantity: "4", unit: "cups" },
+  { recipeId: "54", ingredientName: "Coconut Milk", quantity: "1", unit: "cup" },
+  { recipeId: "54", ingredientName: "Curry Powder", quantity: "2", unit: "tbsp" },
+  { recipeId: "54", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "54", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+
+  // Ingredients for Chicken Parmesan
+  { recipeId: "55", ingredientName: "Chicken Breast", quantity: "2", unit: "" },
+  { recipeId: "55", ingredientName: "Breadcrumbs", quantity: "1", unit: "cup" },
+  { recipeId: "55", ingredientName: "Marinara Sauce", quantity: "1", unit: "cup" },
+  { recipeId: "55", ingredientName: "Mozzarella Cheese", quantity: "1", unit: "cup" },
+  { recipeId: "55", ingredientName: "Parmesan Cheese", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Pita Bread with Hummus
+  { recipeId: "56", ingredientName: "Pita Bread", quantity: "4", unit: "" },
+  { recipeId: "56", ingredientName: "Hummus", quantity: "1", unit: "cup" },
+  { recipeId: "56", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+  { recipeId: "56", ingredientName: "Paprika", quantity: "1", unit: "tsp" },
+  { recipeId: "56", ingredientName: "Cucumber", quantity: "1", unit: "" },
+
+  // Ingredients for Tomato Basil Soup
+  { recipeId: "57", ingredientName: "Tomatoes", quantity: "6", unit: "" },
+  { recipeId: "57", ingredientName: "Basil", quantity: "1", unit: "cup" },
+  { recipeId: "57", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "57", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "57", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+
+  // Ingredients for Salmon Teriyaki
+  { recipeId: "58", ingredientName: "Salmon Fillets", quantity: "4", unit: "" },
+  { recipeId: "58", ingredientName: "Teriyaki Sauce", quantity: "1/4", unit: "cup" },
+  { recipeId: "58", ingredientName: "Sesame Seeds", quantity: "1", unit: "tbsp" },
+  { recipeId: "58", ingredientName: "Green Onions", quantity: "2", unit: "" },
+  { recipeId: "58", ingredientName: "Garlic", quantity: "2", unit: "cloves" },
+
+  // Ingredients for Burritos
+  { recipeId: "59", ingredientName: "Flour Tortillas", quantity: "4", unit: "" },
+  { recipeId: "59", ingredientName: "Ground Beef", quantity: "500", unit: "g" },
+  { recipeId: "59", ingredientName: "Black Beans", quantity: "1", unit: "cup" },
+  { recipeId: "59", ingredientName: "Cheddar Cheese", quantity: "1", unit: "cup" },
+  { recipeId: "59", ingredientName: "Sour Cream", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Falafel Bowl
+  { recipeId: "60", ingredientName: "Falafel", quantity: "4", unit: "" },
+  { recipeId: "60", ingredientName: "Hummus", quantity: "1/2", unit: "cup" },
+  { recipeId: "60", ingredientName: "Cucumber", quantity: "1", unit: "" },
+  { recipeId: "60", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "60", ingredientName: "Pita Bread", quantity: "1", unit: "piece" }
+]);
+
+
+db.recipeIngredients.insertMany([
+  // Ingredients for Greek Moussaka
+  { recipeId: "61", ingredientName: "Ground Beef", quantity: "500", unit: "g" },
+  { recipeId: "61", ingredientName: "Eggplants", quantity: "3", unit: "" },
+  { recipeId: "61", ingredientName: "Tomato Sauce", quantity: "1", unit: "cup" },
+  { recipeId: "61", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "61", ingredientName: "Bechamel Sauce", quantity: "1", unit: "cup" },
+
+  // Ingredients for Eggplant Parmesan
+  { recipeId: "62", ingredientName: "Eggplants", quantity: "2", unit: "" },
+  { recipeId: "62", ingredientName: "Marinara Sauce", quantity: "2", unit: "cups" },
+  { recipeId: "62", ingredientName: "Mozzarella Cheese", quantity: "2", unit: "cups" },
+  { recipeId: "62", ingredientName: "Parmesan Cheese", quantity: "1/2", unit: "cup" },
+  { recipeId: "62", ingredientName: "Breadcrumbs", quantity: "1", unit: "cup" },
+
+  // Ingredients for Spring Rolls
+  { recipeId: "63", ingredientName: "Rice Paper", quantity: "12", unit: "sheets" },
+  { recipeId: "63", ingredientName: "Shrimp", quantity: "200", unit: "g" },
+  { recipeId: "63", ingredientName: "Rice Noodles", quantity: "100", unit: "g" },
+  { recipeId: "63", ingredientName: "Vegetables (e.g., lettuce, carrots)", quantity: "2", unit: "cups" },
+  { recipeId: "63", ingredientName: "Peanut Sauce", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Chicken Kiev
+  { recipeId: "64", ingredientName: "Chicken Breasts", quantity: "4", unit: "" },
+  { recipeId: "64", ingredientName: "Garlic", quantity: "4", unit: "cloves" },
+  { recipeId: "64", ingredientName: "Butter", quantity: "1/2", unit: "cup" },
+  { recipeId: "64", ingredientName: "Breadcrumbs", quantity: "1", unit: "cup" },
+  { recipeId: "64", ingredientName: "Parsley", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Cheese Fondue
+  { recipeId: "65", ingredientName: "Gruyere Cheese", quantity: "200", unit: "g" },
+  { recipeId: "65", ingredientName: "Emmental Cheese", quantity: "200", unit: "g" },
+  { recipeId: "65", ingredientName: "White Wine", quantity: "1", unit: "cup" },
+  { recipeId: "65", ingredientName: "Garlic", quantity: "1", unit: "clove" },
+  { recipeId: "65", ingredientName: "Cornstarch", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Potato Leek Soup
+  { recipeId: "66", ingredientName: "Potatoes", quantity: "4", unit: "" },
+  { recipeId: "66", ingredientName: "Leeks", quantity: "2", unit: "" },
+  { recipeId: "66", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "66", ingredientName: "Cream", quantity: "1/2", unit: "cup" },
+  { recipeId: "66", ingredientName: "Butter", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Lamb Shawarma
+  { recipeId: "67", ingredientName: "Lamb", quantity: "500", unit: "g" },
+  { recipeId: "67", ingredientName: "Shawarma Spice Mix", quantity: "2", unit: "tbsp" },
+  { recipeId: "67", ingredientName: "Yogurt", quantity: "1/2", unit: "cup" },
+  { recipeId: "67", ingredientName: "Garlic", quantity: "4", unit: "cloves" },
+  { recipeId: "67", ingredientName: "Lemon Juice", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Chicken Satay
+  { recipeId: "68", ingredientName: "Chicken Thighs", quantity: "500", unit: "g" },
+  { recipeId: "68", ingredientName: "Peanut Butter", quantity: "1/4", unit: "cup" },
+  { recipeId: "68", ingredientName: "Soy Sauce", quantity: "1/4", unit: "cup" },
+  { recipeId: "68", ingredientName: "Coconut Milk", quantity: "1/4", unit: "cup" },
+  { recipeId: "68", ingredientName: "Lime Juice", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Beef Wellington
+  { recipeId: "69", ingredientName: "Beef Tenderloin", quantity: "500", unit: "g" },
+  { recipeId: "69", ingredientName: "Puff Pastry", quantity: "1", unit: "sheet" },
+  { recipeId: "69", ingredientName: "Mushrooms", quantity: "200", unit: "g" },
+  { recipeId: "69", ingredientName: "Prosciutto", quantity: "6", unit: "slices" },
+  { recipeId: "69", ingredientName: "Dijon Mustard", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Sweet Potato Fries
+  { recipeId: "70", ingredientName: "Sweet Potatoes", quantity: "4", unit: "" },
+  { recipeId: "70", ingredientName: "Olive Oil", quantity: "2", unit: "tbsp" },
+  { recipeId: "70", ingredientName: "Paprika", quantity: "1", unit: "tsp" },
+  { recipeId: "70", ingredientName: "Salt", quantity: "1", unit: "tsp" },
+  { recipeId: "70", ingredientName: "Black Pepper", quantity: "1/2", unit: "tsp" },
+
+  // Ingredients for Black Bean Soup
+  { recipeId: "71", ingredientName: "Black Beans", quantity: "2", unit: "cups" },
+  { recipeId: "71", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "71", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "71", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "71", ingredientName: "Cumin", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Goulash Soup
+  { recipeId: "72", ingredientName: "Beef", quantity: "300", unit: "g" },
+  { recipeId: "72", ingredientName: "Paprika", quantity: "2", unit: "tbsp" },
+  { recipeId: "72", ingredientName: "Potatoes", quantity: "3", unit: "" },
+  { recipeId: "72", ingredientName: "Onions", quantity: "2", unit: "" },
+  { recipeId: "72", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+
+  // Ingredients for Creme Brulee
+  { recipeId: "73", ingredientName: "Egg Yolks", quantity: "6", unit: "" },
+  { recipeId: "73", ingredientName: "Heavy Cream", quantity: "2", unit: "cups" },
+  { recipeId: "73", ingredientName: "Sugar", quantity: "1/2", unit: "cup" },
+  { recipeId: "73", ingredientName: "Vanilla Extract", quantity: "1", unit: "tsp" },
+  { recipeId: "73", ingredientName: "Brown Sugar", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Cornbread
+  { recipeId: "74", ingredientName: "Cornmeal", quantity: "1", unit: "cup" },
+  { recipeId: "74", ingredientName: "Flour", quantity: "1", unit: "cup" },
+  { recipeId: "74", ingredientName: "Baking Powder", quantity: "2", unit: "tbsp" },
+  { recipeId: "74", ingredientName: "Milk", quantity: "1", unit: "cup" },
+  { recipeId: "74", ingredientName: "Eggs", quantity: "2", unit: "" },
+
+  // Ingredients for Tandoori Lamb Chops
+  { recipeId: "75", ingredientName: "Lamb Chops", quantity: "4", unit: "" },
+  { recipeId: "75", ingredientName: "Tandoori Spice Mix", quantity: "2", unit: "tbsp" },
+  { recipeId: "75", ingredientName: "Yogurt", quantity: "1/2", unit: "cup" },
+  { recipeId: "75", ingredientName: "Garlic", quantity: "4", unit: "cloves" },
+  { recipeId: "75", ingredientName: "Lemon Juice", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Chana Masala
+  { recipeId: "76", ingredientName: "Chickpeas", quantity: "2", unit: "cups" },
+  { recipeId: "76", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "76", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "76", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "76", ingredientName: "Chana Masala Spice Mix", quantity: "2", unit: "tbsp" },
+
+  // Ingredients for Chimichurri Steak
+  { recipeId: "77", ingredientName: "Beef Steak", quantity: "500", unit: "g" },
+  { recipeId: "77", ingredientName: "Parsley", quantity: "1", unit: "cup" },
+  { recipeId: "77", ingredientName: "Garlic", quantity: "4", unit: "cloves" },
+  { recipeId: "77", ingredientName: "Red Wine Vinegar", quantity: "2", unit: "tbsp" },
+  { recipeId: "77", ingredientName: "Olive Oil", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Ramen
+  { recipeId: "78", ingredientName: "Ramen Noodles", quantity: "2", unit: "packets" },
+  { recipeId: "78", ingredientName: "Chicken Broth", quantity: "1", unit: "liter" },
+  { recipeId: "78", ingredientName: "Soy Sauce", quantity: "2", unit: "tbsp" },
+  { recipeId: "78", ingredientName: "Green Onions", quantity: "2", unit: "" },
+  { recipeId: "78", ingredientName: "Eggs", quantity: "2", unit: "" },
+
+  // Ingredients for Crab Cakes
+  { recipeId: "79", ingredientName: "Crab Meat", quantity: "250", unit: "g" },
+  { recipeId: "79", ingredientName: "Breadcrumbs", quantity: "1", unit: "cup" },
+  { recipeId: "79", ingredientName: "Mayonnaise", quantity: "1/4", unit: "cup" },
+  { recipeId: "79", ingredientName: "Egg", quantity: "1", unit: "" },
+  { recipeId: "79", ingredientName: "Old Bay Seasoning", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Pasta Primavera
+  { recipeId: "80", ingredientName: "Pasta", quantity: "250", unit: "g" },
+  { recipeId: "80", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "80", ingredientName: "Zucchini", quantity: "1", unit: "" },
+  { recipeId: "80", ingredientName: "Cherry Tomatoes", quantity: "1", unit: "cup" },
+  { recipeId: "80", ingredientName: "Parmesan Cheese", quantity: "1/2", unit: "cup" }
+]);
+
+db.recipeIngredients.insertMany([
+  // Ingredients for Stuffed Peppers
+  { recipeId: "81", ingredientName: "Bell Peppers", quantity: "4", unit: "" },
+  { recipeId: "81", ingredientName: "Rice", quantity: "1", unit: "cup" },
+  { recipeId: "81", ingredientName: "Ground Beef", quantity: "250", unit: "g" },
+  { recipeId: "81", ingredientName: "Tomato Sauce", quantity: "1", unit: "cup" },
+  { recipeId: "81", ingredientName: "Cheese", quantity: "1", unit: "cup" },
+
+  // Ingredients for Sweet and Sour Chicken
+  { recipeId: "82", ingredientName: "Chicken Breast", quantity: "500", unit: "g" },
+  { recipeId: "82", ingredientName: "Sweet and Sour Sauce", quantity: "1", unit: "cup" },
+  { recipeId: "82", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "82", ingredientName: "Pineapple", quantity: "1/2", unit: "cup" },
+  { recipeId: "82", ingredientName: "Onions", quantity: "1", unit: "" },
+
+  // Ingredients for Tiramisu
+  { recipeId: "83", ingredientName: "Mascarpone Cheese", quantity: "250", unit: "g" },
+  { recipeId: "83", ingredientName: "Ladyfingers", quantity: "24", unit: "pieces" },
+  { recipeId: "83", ingredientName: "Espresso Coffee", quantity: "1", unit: "cup" },
+  { recipeId: "83", ingredientName: "Egg Yolks", quantity: "4", unit: "" },
+  { recipeId: "83", ingredientName: "Sugar", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Beef Empanadas
+  { recipeId: "84", ingredientName: "Ground Beef", quantity: "500", unit: "g" },
+  { recipeId: "84", ingredientName: "Empanada Dough", quantity: "12", unit: "sheets" },
+  { recipeId: "84", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "84", ingredientName: "Olives", quantity: "1/4", unit: "cup" },
+  { recipeId: "84", ingredientName: "Eggs", quantity: "1", unit: "" },
+
+  // Ingredients for Fruit Salad
+  { recipeId: "85", ingredientName: "Mixed Fruits", quantity: "4", unit: "cups" },
+  { recipeId: "85", ingredientName: "Honey", quantity: "2", unit: "tbsp" },
+  { recipeId: "85", ingredientName: "Lemon Juice", quantity: "1", unit: "tbsp" },
+  { recipeId: "85", ingredientName: "Mint Leaves", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Vegetable Soup
+  { recipeId: "86", ingredientName: "Mixed Vegetables", quantity: "4", unit: "cups" },
+  { recipeId: "86", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "86", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "86", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "86", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+
+  // Ingredients for Chicken and Waffles
+  { recipeId: "87", ingredientName: "Chicken Wings", quantity: "8", unit: "" },
+  { recipeId: "87", ingredientName: "Waffles", quantity: "4", unit: "" },
+  { recipeId: "87", ingredientName: "Maple Syrup", quantity: "1/4", unit: "cup" },
+  { recipeId: "87", ingredientName: "Flour", quantity: "1", unit: "cup" },
+  { recipeId: "87", ingredientName: "Baking Powder", quantity: "1", unit: "tbsp" },
+
+  // Ingredients for Seafood Gumbo
+  { recipeId: "88", ingredientName: "Shrimp", quantity: "300", unit: "g" },
+  { recipeId: "88", ingredientName: "Crab Meat", quantity: "200", unit: "g" },
+  { recipeId: "88", ingredientName: "Andouille Sausage", quantity: "200", unit: "g" },
+  { recipeId: "88", ingredientName: "Gumbo File Powder", quantity: "1", unit: "tbsp" },
+  { recipeId: "88", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+
+  // Ingredients for Pork Schnitzel
+  { recipeId: "89", ingredientName: "Pork Cutlets", quantity: "4", unit: "" },
+  { recipeId: "89", ingredientName: "Breadcrumbs", quantity: "1", unit: "cup" },
+  { recipeId: "89", ingredientName: "Flour", quantity: "1/2", unit: "cup" },
+  { recipeId: "89", ingredientName: "Eggs", quantity: "2", unit: "" },
+  { recipeId: "89", ingredientName: "Vegetable Oil", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Falafel Hummus Bowl
+  { recipeId: "90", ingredientName: "Falafel", quantity: "6", unit: "pieces" },
+  { recipeId: "90", ingredientName: "Hummus", quantity: "1/2", unit: "cup" },
+  { recipeId: "90", ingredientName: "Cucumber", quantity: "1", unit: "" },
+  { recipeId: "90", ingredientName: "Tomatoes", quantity: "1", unit: "cup" },
+  { recipeId: "90", ingredientName: "Pita Bread", quantity: "2", unit: "pieces" },
+
+  // Ingredients for Vegetarian Sushi
+  { recipeId: "91", ingredientName: "Sushi Rice", quantity: "1", unit: "cup" },
+  { recipeId: "91", ingredientName: "Nori Sheets", quantity: "10", unit: "sheets" },
+  { recipeId: "91", ingredientName: "Avocado", quantity: "1", unit: "" },
+  { recipeId: "91", ingredientName: "Cucumber", quantity: "1", unit: "" },
+  { recipeId: "91", ingredientName: "Soy Sauce", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Baked Ziti
+  { recipeId: "92", ingredientName: "Ziti Pasta", quantity: "500", unit: "g" },
+  { recipeId: "92", ingredientName: "Marinara Sauce", quantity: "2", unit: "cups" },
+  { recipeId: "92", ingredientName: "Mozzarella Cheese", quantity: "2", unit: "cups" },
+  { recipeId: "92", ingredientName: "Parmesan Cheese", quantity: "1/2", unit: "cup" },
+  { recipeId: "92", ingredientName: "Ricotta Cheese", quantity: "1", unit: "cup" },
+
+  // Ingredients for Shrimp Scampi
+  { recipeId: "93", ingredientName: "Shrimp", quantity: "300", unit: "g" },
+  { recipeId: "93", ingredientName: "Garlic", quantity: "4", unit: "cloves" },
+  { recipeId: "93", ingredientName: "Butter", quantity: "1/4", unit: "cup" },
+  { recipeId: "93", ingredientName: "Lemon Juice", quantity: "2", unit: "tbsp" },
+  { recipeId: "93", ingredientName: "Parsley", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Lentil Stew
+  { recipeId: "94", ingredientName: "Lentils", quantity: "1", unit: "cup" },
+  { recipeId: "94", ingredientName: "Carrots", quantity: "2", unit: "" },
+  { recipeId: "94", ingredientName: "Celery", quantity: "2", unit: "stalks" },
+  { recipeId: "94", ingredientName: "Tomatoes", quantity: "2", unit: "" },
+  { recipeId: "94", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+
+  // Ingredients for Beef Stroganoff
+  { recipeId: "95", ingredientName: "Beef", quantity: "500", unit: "g" },
+  { recipeId: "95", ingredientName: "Mushrooms", quantity: "200", unit: "g" },
+  { recipeId: "95", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "95", ingredientName: "Sour Cream", quantity: "1/2", unit: "cup" },
+  { recipeId: "95", ingredientName: "Beef Broth", quantity: "1", unit: "cup" },
+
+  // Ingredients for Pumpkin Soup
+  { recipeId: "96", ingredientName: "Pumpkin", quantity: "500", unit: "g" },
+  { recipeId: "96", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "96", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "96", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "96", ingredientName: "Cream", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Thai Green Curry
+  { recipeId: "97", ingredientName: "Green Curry Paste", quantity: "2", unit: "tbsp" },
+  { recipeId: "97", ingredientName: "Coconut Milk", quantity: "1", unit: "can" },
+  { recipeId: "97", ingredientName: "Chicken Breast", quantity: "300", unit: "g" },
+  { recipeId: "97", ingredientName: "Bell Peppers", quantity: "2", unit: "" },
+  { recipeId: "97", ingredientName: "Basil Leaves", quantity: "1/4", unit: "cup" },
+
+  // Ingredients for Mushroom Soup
+  { recipeId: "98", ingredientName: "Mushrooms", quantity: "300", unit: "g" },
+  { recipeId: "98", ingredientName: "Onions", quantity: "1", unit: "" },
+  { recipeId: "98", ingredientName: "Garlic", quantity: "3", unit: "cloves" },
+  { recipeId: "98", ingredientName: "Vegetable Broth", quantity: "1", unit: "liter" },
+  { recipeId: "98", ingredientName: "Cream", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Pork Tacos
+  { recipeId: "99", ingredientName: "Pork", quantity: "300", unit: "g" },
+  { recipeId: "99", ingredientName: "Taco Shells", quantity: "8", unit: "pieces" },
+  { recipeId: "99", ingredientName: "Lettuce", quantity: "1", unit: "cup" },
+  { recipeId: "99", ingredientName: "Tomatoes", quantity: "1", unit: "cup" },
+  { recipeId: "99", ingredientName: "Cheese", quantity: "1/2", unit: "cup" },
+
+  // Ingredients for Apple Pie
+  { recipeId: "100", ingredientName: "Apples", quantity: "6", unit: "" },
+  { recipeId: "100", ingredientName: "Pie Crust", quantity: "2", unit: "sheets" },
+  { recipeId: "100", ingredientName: "Sugar", quantity: "1/2", unit: "cup" },
+  { recipeId: "100", ingredientName: "Cinnamon", quantity: "1", unit: "tbsp" },
+  { recipeId: "100", ingredientName: "Butter", quantity: "1/4", unit: "cup" }
+]);

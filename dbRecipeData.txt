@@ -1,0 +1,1131 @@
+
+db.recipes.insertMany([
+  { _id: "1", name: "Spaghetti Bolognese", type: "Non-Vegetarian", country: "Italy" },
+  { _id: "2", name: "Caesar Salad", type: "Non-Vegetarian", country: "USA" },
+  { _id: "3", name: "Vegetable Stir-Fry", type: "Vegan", country: "China" },
+  { _id: "4", name: "Chicken Tikka Masala", type: "Non-Vegetarian", country: "India" },
+  { _id: "5", name: "Tacos", type: "Non-Vegetarian", country: "Mexico" },
+  { _id: "6", name: "Pad Thai", type: "Non-Vegetarian", country: "Thailand" },
+  { _id: "7", name: "Ratatouille", type: "Vegetarian", country: "France" },
+  { _id: "8", name: "Falafel", type: "Vegan", country: "Middle East" },
+  { _id: "9", name: "Moussaka", type: "Non-Vegetarian", country: "Greece" },
+  { _id: "10", name: "Sushi", type: "Non-Vegetarian", country: "Japan" },
+  { _id: "11", name: "Chili Con Carne", type: "Non-Vegetarian", country: "USA" },
+  { _id: "12", name: "Greek Salad", type: "Vegetarian", country: "Greece" },
+  { _id: "13", name: "Tom Yum Soup", type: "Non-Vegetarian", country: "Thailand" },
+  { _id: "14", name: "Margarita Pizza", type: "Vegetarian", country: "Italy" },
+  { _id: "15", name: "Korean BBQ", type: "Non-Vegetarian", country: "South Korea" },
+  { _id: "16", name: "Pancakes", type: "Vegetarian", country: "USA" },
+  { _id: "17", name: "Beef Stroganoff", type: "Non-Vegetarian", country: "Russia" },
+  { _id: "18", name: "Samosas", type: "Vegetarian", country: "India" },
+  { _id: "19", name: "Bulgur Wheat Salad", type: "Vegan", country: "Turkey" },
+  { _id: "20", name: "Chicken Alfredo", type: "Non-Vegetarian", country: "Italy" },
+  { _id: "21", name: "Banh Mi", type: "Non-Vegetarian", country: "Vietnam" },
+  { _id: "22", name: "Falafel Wrap", type: "Vegan", country: "Middle East" },
+  { _id: "23", name: "Goulash", type: "Non-Vegetarian", country: "Hungary" },
+  { _id: "24", name: "Shakshuka", type: "Vegetarian", country: "Middle East" },
+  { _id: "25", name: "Empanadas", type: "Non-Vegetarian", country: "Argentina" },
+  { _id: "26", name: "Borscht", type: "Vegetarian", country: "Ukraine" },
+  { _id: "27", name: "Risotto", type: "Vegetarian", country: "Italy" },
+  { _id: "28", name: "Kebabs", type: "Non-Vegetarian", country: "Turkey" },
+  { _id: "29", name: "Paella", type: "Non-Vegetarian", country: "Spain" },
+  { _id: "30", name: "Lentil Soup", type: "Vegan", country: "Middle East" },
+  { _id: "31", name: "Beef Tacos", type: "Non-Vegetarian", country: "Mexico" },
+  { _id: "32", name: "Minestrone Soup", type: "Vegetarian", country: "Italy" },
+  { _id: "33", name: "Barbecue Ribs", type: "Non-Vegetarian", country: "USA" },
+  { _id: "34", name: "Gazpacho", type: "Vegan", country: "Spain" },
+  { _id: "35", name: "Chicken Fajitas", type: "Non-Vegetarian", country: "Mexico" },
+  { _id: "36", name: "Egg Drop Soup", type: "Non-Vegetarian", country: "China" },
+  { _id: "37", name: "Tandoori Chicken", type: "Non-Vegetarian", country: "India" },
+  { _id: "38", name: "Banh Xeo", type: "Non-Vegetarian", country: "Vietnam" },
+  { _id: "39", name: "Vegetarian Chili", type: "Vegan", country: "USA" },
+  { _id: "40", name: "Seafood Paella", type: "Non-Vegetarian", country: "Spain" },
+  { _id: "41", name: "Caponata", type: "Vegetarian", country: "Italy" },
+  { _id: "42", name: "Peking Duck", type: "Non-Vegetarian", country: "China" },
+  { _id: "43", name: "Samosa Chaat", type: "Vegetarian", country: "India" },
+  { _id: "44", name: "Bulgur Pilaf", type: "Vegan", country: "Turkey" },
+  { _id: "45", name: "Chicken Shawarma", type: "Non-Vegetarian", country: "Middle East" },
+  { _id: "46", name: "Mushroom Risotto", type: "Vegetarian", country: "Italy" },
+  { _id: "47", name: "Ceviche", type: "Non-Vegetarian", country: "Peru" },
+  { _id: "48", name: "Cheeseburger", type: "Non-Vegetarian", country: "USA" },
+  { _id: "49", name: "Katsu Curry", type: "Non-Vegetarian", country: "Japan" },
+  { _id: "50", name: "Bangers and Mash", type: "Non-Vegetarian", country: "UK" },
+  { _id: "51", name: "Sweet and Sour Pork", type: "Non-Vegetarian", country: "China" },
+  { _id: "52", name: "Roasted Vegetable Salad", type: "Vegetarian", country: "USA" },
+  { _id: "53", name: "Pasta Carbonara", type: "Non-Vegetarian", country: "Italy" },
+  { _id: "54", name: "Vegetable Curry", type: "Vegan", country: "India" },
+  { _id: "55", name: "Chicken Parmesan", type: "Non-Vegetarian", country: "Italy" },
+  { _id: "56", name: "Pita Bread with Hummus", type: "Vegan", country: "Middle East" },
+  { _id: "57", name: "Tomato Basil Soup", type: "Vegetarian", country: "USA" },
+  { _id: "58", name: "Salmon Teriyaki", type: "Non-Vegetarian", country: "Japan" },
+  { _id: "59", name: "Burritos", type: "Non-Vegetarian", country: "Mexico" },
+  { _id: "60", name: "Falafel Bowl", type: "Vegan", country: "Middle East" },
+  { _id: "61", name: "Greek Moussaka", type: "Non-Vegetarian", country: "Greece" },
+  { _id: "62", name: "Eggplant Parmesan", type: "Vegetarian", country: "Italy" },
+  { _id: "63", name: "Spring Rolls", type: "Vegan", country: "Vietnam" },
+  { _id: "64", name: "Chicken Kiev", type: "Non-Vegetarian", country: "Ukraine" },
+  { _id: "65", name: "Cheese Fondue", type: "Vegetarian", country: "Switzerland" },
+  { _id: "66", name: "Potato Leek Soup", type: "Vegetarian", country: "France" },
+  { _id: "67", name: "Lamb Shawarma", type: "Non-Vegetarian", country: "Middle East" },
+  { _id: "68", name: "Chicken Satay", type: "Non-Vegetarian", country: "Indonesia" },
+  { _id: "69", name: "Beef Wellington", type: "Non-Vegetarian", country: "UK" },
+  { _id: "70", name: "Sweet Potato Fries", type: "Vegan", country: "USA" },
+  { _id: "71", name: "Black Bean Soup", type: "Vegan", country: "Mexico" },
+  { _id: "72", name: "Goulash Soup", type: "Non-Vegetarian", country: "Hungary" },
+  { _id: "73", name: "Creme Brulee", type: "Vegetarian", country: "France" },
+  { _id: "74", name: "Cornbread", type: "Vegetarian", country: "USA" },
+  { _id: "75", name: "Tandoori Lamb Chops", type: "Non-Vegetarian", country: "India" },
+  { _id: "76", name: "Chana Masala", type: "Vegan", country: "India" },
+  { _id: "77", name: "Chimichurri Steak", type: "Non-Vegetarian", country: "Argentina" },
+  { _id: "78", name: "Ramen", type: "Non-Vegetarian", country: "Japan" },
+  { _id: "79", name: "Crab Cakes", type: "Non-Vegetarian", country: "USA" },
+  { _id: "80", name: "Pasta Primavera", type: "Vegetarian", country: "Italy" },
+  { _id: "81", name: "Stuffed Peppers", type: "Vegetarian", country: "USA" },
+  { _id: "82", name: "Sweet and Sour Chicken", type: "Non-Vegetarian", country: "China" },
+  { _id: "83", name: "Tiramisu", type: "Vegetarian", country: "Italy" },
+  { _id: "84", name: "Beef Empanadas", type: "Non-Vegetarian", country: "Argentina" },
+  { _id: "85", name: "Fruit Salad", type: "Vegan", country: "USA" },
+  { _id: "86", name: "Vegetable Soup", type: "Vegan", country: "USA" },
+  { _id: "87", name: "Chicken and Waffles", type: "Non-Vegetarian", country: "USA" },
+  { _id: "88", name: "Seafood Gumbo", type: "Non-Vegetarian", country: "USA" },
+  { _id: "89", name: "Pork Schnitzel", type: "Non-Vegetarian", country: "Germany" },
+  { _id: "90", name: "Falafel Hummus Bowl", type: "Vegan", country: "Middle East" },
+  { _id: "91", name: "Vegetarian Sushi", type: "Vegetarian", country: "Japan" },
+  { _id: "92", name: "Baked Ziti", type: "Vegetarian", country: "Italy" },
+  { _id: "93", name: "Shrimp Scampi", type: "Non-Vegetarian", country: "Italy" },
+  { _id: "94", name: "Lentil Stew", type: "Vegan", country: "Middle East" },
+  { _id: "95", name: "Beef Stroganoff", type: "Non-Vegetarian", country: "Russia" },
+  { _id: "96", name: "Pumpkin Soup", type: "Vegetarian", country: "USA" },
+  { _id: "97", name: "Thai Green Curry", type: "Non-Vegetarian", country: "Thailand" },
+  { _id: "98", name: "Mushroom Soup", type: "Vegetarian", country: "France" },
+  { _id: "99", name: "Pork Tacos", type: "Non-Vegetarian", country: "Mexico" },
+  { _id: "100", name: "Apple Pie", type: "Vegetarian", country: "USA" }
+]);
+
+
+//
+db.recipes.insertOne({
+  _id: "101",
+  name: "Creamy Tomato Basil Soup",
+  type: "Vegetarian",
+  country: "USA",
+  image: "https://example.com/images/creamy-tomato-basil-soup.jpg",
+  mealType: ["Starter"],
+  description: "A rich and creamy tomato basil soup, perfect as a starter or a light meal.",
+  ingredients: [
+
+  ],
+  instructions: "1. Heat olive oil in a large pot. 2. Add onions and cook until translucent. 3. Stir in garlic and cook for another minute. 4. Add tomatoes, basil, and broth. 5. Simmer for 20 minutes. 6. Use an immersion blender to puree the soup until smooth. 7. Stir in cream and season with salt and pepper.",
+  prepTime: 15,
+  cookTime: 30,
+  totalTime: 45,
+  servings: 4,
+  tags: ["soup", "vegetarian", "tomato"],
+  rating: 4.6,
+  createdAt: new Date(),
+  updatedAt: new Date()
+});
+
+
+// recipe images
+
+db.recipes.updateMany(
+  { _id: "1" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/mqY5Gb2zmj0w8M8djEADb9e9QkA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Spaghetti-Bolognese-LEAD-01-78e9e9d1e51d40359364907b1f38eb39.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "2" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/5Yw7bsjpdFPiCnSeN7bRr0huELs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Caesar-Salad-LEAD-01-1c27c5d779f948a3978b1c091f93b71c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "3" },
+  { $set: { image: "https://www.seriouseats.com/thmb/8bYk4HREpV2FQ0_0y4N5jMyRogI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20180531-vegetable-stir-fry-7-80568da9472e4346b8efc156d3e58c34.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "4" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/WFhuuHnMzex8eAWFQ_09y-N5d1s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Tikka-Masala-LEAD-01-1f3b9a89ed564d93a320eb07d07e09fa.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "5" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/KgDP56Ow6WmEVm8SuHs5BSAQ8h4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Beef-Tacos-LEAD-01-4d1ec9c0bfa9487cbd3a36c2ed0b7f6c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "6" },
+  { $set: { image: "https://www.seriouseats.com/thmb/MciZzDehwPUho9fUGo4ToaJUBmc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20200522-pad-thai-10-0be49e03d1584c4a8e59b2922f4e1e71.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "7" },
+  { $set: { image: "https://www.seriouseats.com/thmb/17OfmNmDkjrOYkq2f7_1FGM0dR4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20180620-ratatouille-1-df04f53d582b41e496f2a0bb7d8d9da2.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "8" },
+  { $set: { image: "https://www.seriouseats.com/thmb/3U7IRtcggBceQTEzyuCPrq6Bl2s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20170220-falafel-5-fb09181f6d04447c8f964e486f3d437c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "9" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/2y7z96uNjsTxqY96H7W5Lx6djSw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Moussaka-LEAD-01-017c3e94f6e446edaa1c0c1c4b5c627c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "10" },
+  { $set: { image: "https://www.seriouseats.com/thmb/TKZ3ONvCSc0dXfpVOwTHlpsDAa4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20181214-sushi-rolls-4-d4b68a8b5a46476e8b7a9e594ef53e41.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "11" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/M3L1nbMk8A3YxY7zHpaYvETt3GI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chili-Con-Carne-LEAD-01-1c27c5d779f948a3978b1c091f93b71c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "12" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/wn3RO1d8omKBRZ5zPp6P7xAEr_k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Greek-Salad-LEAD-01-6a427de17e234d21a7211d84d5c60de5.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "13" },
+  { $set: { image: "https://www.seriouseats.com/thmb/_lM6PLTVUld1GQJ16eXl85IGXUk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20170124-tom-yum-goong-2-6c5f7b4a5e2e4cfb91ef9c1180d438bb.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "14" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/jNx0q8u6_5Oo7CQcc8JlwofYX38=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Margarita-Pizza-LEAD-01-2dc7f571d63a4b3f8a3a542b5ef914b1.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "15" },
+  { $set: { image: "https://www.seriouseats.com/thmb/1xMKbKAGkdkO10XWkHRM-D_FvCk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20200302-korean-bbq-2-9085890ecaa84ae4807ae2c275ca80bc.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "16" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/oD-yxJpB1-77z8fuJ5Ru-7lQw6s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Pancakes-LEAD-01-2f3c3b6d790d4edb930e5b9ed8b6ae09.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "17" },
+  { $set: { image: "https://www.seriouseats.com/thmb/4FroM6XWPAkVOcvEtJwzMz4HAtA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20190515-beef-stroganoff-1-3e81a9c9b90543f5960dbed6d597b3b3.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "18" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/kR0pJ2nACZ4e7M0Zz-ZSY8iQ6To=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Samosas-LEAD-01-c4c25fd6d3914428a0e6b5830a62dd08.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "19" },
+  { $set: { image: "https://www.seriouseats.com/thmb/Lr_dv7JxJP6dy4y7X3U7RZG7bi8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210604-bulgur-wheat-salad-7-061b36a28cbd4d8a939c95b2a488e7b8.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "20" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/vv4o2He9ErdX4LNrC92S8EFCFTY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Alfredo-LEAD-01-1a3d9f1b7d83479f826d47d2f72441a7.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "21" },
+  { $set: { image: "https://www.thekitchn.com/thmb/cLQO4sAKz6zDbLsO1xVjc1l7dTk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Banh-Mi-03-02b5b8f5fa464c4e8b8e2833e70a118d.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "22" },
+  { $set: { image: "https://www.veganricha.com/wp-content/uploads/2020/03/Vegan-Falafel-Wrap-7.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "23" },
+  { $set: { image: "https://www.thespruceeats.com/thmb/QeFs71NFGZ5aK7tQAkPqk62LUW4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hungarian-goulash-5-5c05b53b46e0f82e7e8d3c6a8c4c0f66.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "24" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/VsHJKhKLC1KjBz3FAOEkys4ksDg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Shakshuka-LEAD-01-4b091cb0560b45b7a2b6d6cb8b4cfc8e.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "25" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/A8JtBQK9jQTr5OoX1Cz7vwkFDcs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Empanadas-LEAD-01-5cc2e9a7d7344e8b87d77cf7d0d07d4b.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "26" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/oH6_fksxNjc9q3d__5Ax2ECRcmU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Borscht-LEAD-01-56ccf82b7e0d4d5fb2a740d1a4b8c6f5.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "27" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/v8e9szK2n9MWv8mQmtUrSA__N5k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Risotto-LEAD-01-1e50b9e02b834c9a87e3f85e6b53b2e3.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "28" },
+  { $set: { image: "https://www.copymethat.com/media/imgs/1452783380-8e292344d6a87da3a0e0bb945b08828e.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "29" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/A78ci-3em73eUeFAx3oxWWa9TZ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Paella-LEAD-01-0619c6fc584941fdb1c6d9a5d9f1c3fc.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "30" },
+  { $set: { image: "https://www.copymethat.com/media/imgs/1507223020-01343d66d684c60c1c14ebc5b44f32b7.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "31" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/4ylDql6xjdQxCxWWn8W1zGJ5W80=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Beef-Tacos-LEAD-01-4d1ec9c0bfa9487cbd3a36c2ed0b7f6c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "32" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/5X1dQOMYZksC9SjcBRU8Py2LY7Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Minestrone-Soup-LEAD-01-4d07c2b98dbf458d83b0637b4819d029.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "33" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/8j3iFb9dpPog3vM9J6O3HYpJlzQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Barbecue-Ribs-LEAD-01-2e6fdc0d1e634c5b83a08a2e9d00f5e8.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "34" },
+  { $set: { image: "https://www.copymethat.com/media/imgs/1508031415-52407aef292b0f979fd25c55fd2cda26.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "35" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/B1_EW3F4w7ymgP02oMweL3V5rM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Fajitas-LEAD-01-9f7f6055e58942a49c631b929e5a08d0.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "36" },
+  { $set: { image: "https://www.seriouseats.com/thmb/cYI8U8lTBSu1ExqJ6V1efk0Kl6E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20180515-egg-drop-soup-5-1073c55b4c224d3c9dc635b58b4c4c3d.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "37" },
+  { $set: { image: "https://www.seriouseats.com/thmb/JkV3hITCqEq9mDRJMLW6s5l7jiM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20181003-tandoori-chicken-4-44948d581ae8406dbd19b4b55e530bba.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "38" },
+  { $set: { image: "https://www.seriouseats.com/thmb/Y8dL5RizGz4L0ZcmQKwGH9k8_h8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20170201-banh-xeo-7-1be518b927e5475b8a1b501f7c238fc4.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "39" },
+  { $set: { image: "https://www.copymethat.com/media/imgs/1508032605-67dff2fc2a53f52d75b8fd62026e69b8.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "40" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/x-9WQ9dPhbcK4X7EHHXZnmCrLCI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Seafood-Paella-LEAD-01-02d67b48ef024dc9ae2cf75b2e8cce92.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "41" },
+  { $set: { image: "https://www.giallozafferano.com/images/recipes/2291_Caponata/800_800.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "42" },
+  { $set: { image: "https://www.seriouseats.com/thmb/WF5gHKyR7BHV8mGszF7jD2dV17o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20190306-Peking-Duck-15-fb59456b07e6478a814167a9e7e9722c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "43" },
+  { $set: { image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/10/samosa-chaat-1-500x500.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "44" },
+  { $set: { image: "https://www.culinaryhill.com/wp-content/uploads/2021/03/Bulgur-Pilaf-Culinary-Hill-1.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "45" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/FbJMzY7eOPtHjJbnkFNB0MAmaMI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Shawarma-LEAD-01-dbd315de2bcd49d38d0c328440da41c5.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "46" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/1MWkpqZp7DId6eKY0a5tCqY_YuE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mushroom-Risotto-LEAD-01-5b2a1c1f1e474a1c8c1a7c5274b87d8a.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "47" },
+  { $set: { image: "https://www.seriouseats.com/thmb/ZHgs9sUp7Qw8A5ONpvcg8xZzdfI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20200410-Ceviche-09-059fb70a55b84c58b5658397959b51ec.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "48" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/V0kSB1o6Tzn2cuBfKa9DoWVnH7k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Cheeseburger-LEAD-01-9c4d80c19a414d02b43a1b8b8e50e8de.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "49" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/NnUthFMwnk7E2bJYXrG_XeA8nvM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Katsu-Curry-LEAD-01-3739e2562d7a49d29c0a2c4a6a827029.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "50" },
+  { $set: { image: "https://www.seriouseats.com/thmb/SW1M3ezb1Ic8I7gpy3j0SBqdy2Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20191127-Bangers-and-Mash-08-59e8db2c91f340a4bbad208d45261eb7.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "51" },
+  { $set: { image: "https://www.seriouseats.com/thmb/4EA3c56YtrHjXOK9d7bWZ7C6VhM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20200511-Sweet-and-Sour-Pork-07-84f4b9b7a7b14f52a60d279b76efdd09.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "52" },
+  { $set: { image: "https://www.eatingwell.com/thmb/ikG8fyw5PV7J9Ew6DgADz_qU2_8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Roasted-Vegetable-Salad-1-4f65db028f4b41b6b1e62f84e1d7f06a.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "53" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/qzm_U9VJ3cnXy0Ty6UGQ9FwmL2I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Pasta-Carbonara-LEAD-01-6e71e014d1f647a5b0d1db1cfc0565c5.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "54" },
+  { $set: { image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/vegetable-curry-recipe-1-500x500.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "55" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/ZD-ySwHp_rU2gGm8uO-QjLtXkCo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Parmesan-LEAD-01-8d8c9255ebf549f69f68b6c8f8f5fc10.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "56" },
+  { $set: { image: "https://www.culinaryhill.com/wp-content/uploads/2020/03/Pita-Bread-with-Hummus-Culinary-Hill-1.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "57" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/2bFgx4xyvIZNqYhtMjCq5xIFRm8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Tomato-Basil-Soup-LEAD-01-440434d4510c4d5d8b8d0c53d6d2906c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "58" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/NJECmV6ySY2yCzMQe0bqR2-txCA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Salmon-Teriyaki-LEAD-01-ffb68ec5aebd473b80e5c42daafedbd2.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "59" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/wnCFPjfql3-lDUNaK2JXitPefXI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Burritos-LEAD-01-5c95d89318e64c3b8b6a7c7d8376b7e1.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "60" },
+  { $set: { image: "https://www.vegansandra.com/wp-content/uploads/2021/04/Falafel-Bowl-1-1.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "61" },
+  { $set: { image: "https://www.mediterraneanliving.com/wp-content/uploads/2020/06/GREEK-MOUSSAKA-400x400.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "62" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/jW1evwo_gPxRoq66tfoQJmvHV5A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Eggplant-Parmesan-LEAD-01-5d0bbf754a014b2da84647c40e2ef073.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "63" },
+  { $set: { image: "https://www.cookingclassy.com/wp-content/uploads/2018/02/Spring-Rolls-12-500x500.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "64" },
+  { $set: { image: "https://www.thekitchn.com/thmb/B7V7p6F0jc7uL9ap-8G9Dpz5EYk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Chicken-Kiev-Image-1-3b3a1d8b7a844dc4a1b19f1a2d2d0e2e.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "65" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/hgbj75S18fbjFkmA29Xr6Bkl7xM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Cheese-Fondue-LEAD-01-d90005b42cbb4708944d609b5d4d6f48.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "66" },
+  { $set: { image: "https://www.loveandlemons.com/wp-content/uploads/2019/01/Potato-Leek-Soup-3-2.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "67" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/2QUfKnlZzoVuEFJcMcM6DOD9BCs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Lamb-Shawarma-LEAD-01-934626e6fdc14c6889300e31f2c24f34.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "68" },
+  { $set: { image: "https://www.theforkedspoon.com/wp-content/uploads/2020/02/Chicken-Satay-3.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "69" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/AJzGTkN77saM6n88N4w9hC12I0Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Beef-Wellington-LEAD-01-e68bfc5d3df84d45b68b9aeb0b4a4d7b.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "70" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/eiJzNTtOfyNxaklTc3zDfbZkHBo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Sweet-Potato-Fries-LEAD-01-2dfe20426a204519a5c5e002b04b501a.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "71" },
+  { $set: { image: "https://www.isabeleats.com/wp-content/uploads/2021/06/Black-Bean-Soup-1-800x600.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "72" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/7Hs_5sFWic8y3T2b4wHTMS__-dM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Goulash-Soup-LEAD-01-500d12e40b184f6c848ab3c9c4624c8b.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "73" },
+  { $set: { image: "https://www.tastesbetterfromscratch.com/wp-content/uploads/2018/02/Creme-Brulee-2.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "74" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/_TDF07IXD7Qu5YxRfB2_bQwmJWI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Cornbread-LEAD-01-7dc6d09fd3bc49938faad914d00f6c65.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "75" },
+  { $set: { image: "https://www.thekitchn.com/thmb/J71yFGXGTj6GnaRZxIgC9t3q6D0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Tandoori-Lamb-Chops-Image-3-56fe8e3de12b420b88f3284175bda98e.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "76" },
+  { $set: { image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/11/chana-masala-1-500x500.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "77" },
+  { $set: { image: "https://www.seriouseats.com/thmb/LdmFjXxQ9_GjF82cmU4zE3RydEk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20190919-Chimichurri-Steak-15-d9e50a581c524e7fbe9a624ab4f6b3e1.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "78" },
+  { $set: { image: "https://www.seriouseats.com/thmb/0lkx57rxH0kHhDZxXNOe4Sg36-o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20190822-Ramen-14-860bb8cf5fa941cc9b3c82c2a82de98e.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "79" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/7P-4IBkaExPKlGfTr-VQ87DFPf8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Crab-Cakes-LEAD-01-e4e2a0d0154b4077838310b84f6b7d60.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "80" },
+  { $set: { image: "https://www.cookingclassy.com/wp-content/uploads/2018/04/Pasta-Primavera-3.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "81" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/0jKjZ3cSBep6D13foK9rjtZcHus=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Stuffed-Peppers-LEAD-01-53a3debd12b24a7a8e8706a046d33b39.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "82" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/tV6CkPR_JG0Q_n-GYmKLRc4F6uE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Sweet-and-Sour-Chicken-LEAD-01-4a0f92d8b7874c3a94b5f9fcbf44a58f.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "83" },
+  { $set: { image: "https://www.loveandlemons.com/wp-content/uploads/2019/12/Tiramisu-4.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "84" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/dh9ZPMTfjC2Vj5vNW7VJZYvKtdU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Beef-Empanadas-LEAD-01-6db43c9ea3d64e09a4ec4c0380eb1b9c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "85" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/2KY4E2qksk-2el_pMQ4GqCbmV9k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Fruit-Salad-LEAD-01-50de6c6c81084d6cb92c0d3b0d2d3c30.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "86" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/Sr1V8_jlrrO9hihTLiPqOkkf8T4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Vegetable-Soup-LEAD-01-7df8eb7a16294003a4f7b7f4c5d93d9c.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "87" },
+  { $set: { image: "https://www.cookingclassy.com/wp-content/uploads/2018/02/Chicken-and-Waffles-8.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "88" },
+  { $set: { image: "https://www.cookingclassy.com/wp-content/uploads/2018/01/Seafood-Gumbo-1.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "89" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/9-DX0z6BLtPM7y4EOkX4oW7cwJk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Pork-Schnitzel-LEAD-01-cf6d89260d7d4e4e81b78d1181b2383b.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "90" },
+  { $set: { image: "https://www.thekitchn.com/thmb/w5MS_dGEPAwQj9VDHtZ_wDBLgfI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Falafel-Hummus-Bowl-Image-2-152a4fd5723444cda77c62fbd07a03eb.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "91" },
+  { $set: { image: "https://www.loveandlemons.com/wp-content/uploads/2021/02/Vegetarian-Sushi-1.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "92" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/68qShR2DO6T1R0cFovE1rM1YXB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Baked-Ziti-LEAD-01-0bb99eae0a5d48248b5d6e2eae44d44b.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "93" },
+  { $set: { image: "https://www.cookingclassy.com/wp-content/uploads/2018/06/Shrimp-Scampi-7.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "94" },
+  { $set: { image: "https://www.cookingclassy.com/wp-content/uploads/2018/01/Lentil-Stew-4.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "95" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/4l0b4L5DCpJ7skWMWscn79px5RI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Beef-Stroganoff-LEAD-01-d7b2b13fd79b46c8898c4c85a47374f4.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "96" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/92XFlc5HYtOP9uLK03W_lGqzDJ0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Pumpkin-Soup-LEAD-01-0978e2efc4f64878b6cbe3cce7b0a11d.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "97" },
+  { $set: { image: "https://www.seriouseats.com/thmb/8ylO_sP1HZH5KhT7v8PUGdnD8_g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20190305-Thai-Green-Curry-16-08e7e03dbf2c4c36b55f56c4e0798cf8.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "98" },
+  { $set: { image: "https://www.bonappetit.com/recipe/mushroom-soup-12062014" } }
+);
+
+db.recipes.updateMany(
+  { _id: "99" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/Cx_z7-FN5M0uc3opWIRl4_tQgkA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Pork-Tacos-LEAD-01-564a8de93d3d4e5c911c03c37204876b.jpg" } }
+);
+
+db.recipes.updateMany(
+  { _id: "100" },
+  { $set: { image: "https://www.simplyrecipes.com/thmb/rd7zUOHv8Q4TEEXOZ3AW3RmVzxU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Apple-Pie-LEAD-01-6a0f5e3f81a74d7c8463b7f29904b2d7.jpg" } }
+);
+
+
+db.recipes.updateMany(
+  { _id: "1" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "2" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "3" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "4" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "5" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "6" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "7" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "8" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "9" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "10" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "11" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "12" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "13" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "14" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "15" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "16" },
+  { $set: { mealType: ["Breakfast", "Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "17" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "18" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "19" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "20" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "21" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "22" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "23" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "24" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "25" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "26" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "27" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "28" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "29" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "30" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "31" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "32" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "33" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "34" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "35" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "36" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "37" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "38" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "39" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "40" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "41" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "42" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "43" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "44" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "45" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "46" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "47" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "48" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "49" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "50" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "51" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "52" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "53" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "54" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "55" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "56" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "57" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "58" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "59" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "60" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "61" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "62" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "63" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "64" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "65" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "66" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "67" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "68" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "69" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "70" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "71" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "72" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "73" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "74" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "75" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "76" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "77" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "78" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "79" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "80" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "81" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "82" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "83" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "84" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "85" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "86" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "87" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "88" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "89" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "90" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "91" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "92" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "93" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "94" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "95" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "96" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "97" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "98" },
+  { $set: { mealType: ["Starter"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "99" },
+  { $set: { mealType: ["Main"] } }
+);
+
+db.recipes.updateMany(
+  { _id: "100" },
+  { $set: { mealType: ["Dessert"] } }
+);
